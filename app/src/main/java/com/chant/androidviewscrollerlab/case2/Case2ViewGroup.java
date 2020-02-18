@@ -39,6 +39,7 @@ public class Case2ViewGroup extends Case1ViewGroup {
 
     /**
      * 通过动画滚动到第几个子 View
+     *
      * @param targetIndex 要移动到第几个子 View
      */
     @Override
@@ -48,7 +49,7 @@ public class Case2ViewGroup extends Case1ViewGroup {
         }
         mScroller.startScroll(
                 getScrollX(), getScrollY(),
-                targetIndex * getWidth() - getScrollX(), getScrollY());
+                targetIndex * getWidth() - getScrollX(), getScrollY(), 1000);
         mCurrentIndex = targetIndex;
         invalidate();
     }

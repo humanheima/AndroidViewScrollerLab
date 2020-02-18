@@ -94,7 +94,6 @@ public class Case1ViewGroup extends ViewGroup {
         }
         scrollTo(targetIndex * getWidth(), getScrollY());
         mCurrentIndex = targetIndex;
-        invalidate();
     }
 
     /**

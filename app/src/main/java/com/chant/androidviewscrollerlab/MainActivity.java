@@ -11,6 +11,7 @@ import android.widget.SimpleAdapter;
 import com.chant.androidviewscrollerlab.case1.Case1Activity;
 import com.chant.androidviewscrollerlab.case2.Case2Activity;
 import com.chant.androidviewscrollerlab.case3.Case3Activity;
+import com.chant.androidviewscrollerlab.case4.Case4Activity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -46,6 +47,12 @@ public class MainActivity extends ActionBarActivity {
             classList.add(Case3Activity.class);
             Map<String, String> listItemMap = new HashMap<String, String>();
             listItemMap.put("TITLE", "Case3 View的滚动（touch事件控制滚动）");
+            listAdapterData.add(listItemMap);
+        }
+        {
+            classList.add(Case4Activity.class);
+            Map<String, String> listItemMap = new HashMap<String, String>();
+            listItemMap.put("TITLE", "Case4 View的滚动（touch事件控制滚动）");
             listAdapterData.add(listItemMap);
         }
 

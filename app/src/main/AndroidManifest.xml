@@ -18,6 +18,7 @@
         <activity android:name=".case1.Case1Activity" />
         <activity android:name=".case2.Case2Activity" />
         <activity android:name=".case3.Case3Activity" />
+        <activity android:name=".case4.Case4Activity" />
     </application>
 
 </manifest>

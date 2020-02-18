@@ -81,7 +81,6 @@ public class Case3ViewGroup extends Case2ViewGroup {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         super.onTouchEvent(event);
-
         // 速度监控器，监控每一个 event
         if (mVelocityTracker == null) {
             mVelocityTracker = VelocityTracker.obtain();
